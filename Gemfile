@@ -88,3 +88,7 @@ gem 'ffi'
 gem 'bootstrap'
 
 gem 'sassc-rails'
+
+group :production do
+  gem 'pg'
+end
